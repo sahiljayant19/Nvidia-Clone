@@ -1,0 +1,105 @@
+.overlay {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+}
+
+.overlay,
+.search-display {
+    display: none;
+}
+
+.search-area {
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+
+
+.search-box,
+#searchBoxBtn img {
+    height: 40px;
+    width: 270px;
+    position: absolute;
+    z-index: 2;
+    right: 10vw;
+    padding: 0 30px;
+}
+
+.search-box {
+    border: 0;
+    outline: 0;
+}
+
+#searchBoxBtn {
+    height: 30px;
+    width: 30px;
+}
+
+#searchBoxBtn img {
+    height: 100%;
+    width: 100%;
+    opacity: .6;
+    bottom: -6px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+/* .................. */
+
+.menu-button {
+    background: none;
+    border: 0;
+    display: none;
+}
+
+.sub-menu-button {
+    background: none;
+    border: 0;
+    display: none;
+}
+/* .................. */
+
+.option-boxes {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.option-box {
+    height: 180px;
+    width: 300px;
+    color: black;
+    background-color: white;
+    position: absolute;
+    border: 2px solid black;
+    top: -12px;
+}
+
+.option-box1 {
+    right: 48.7vw;
+}
+
+.option-box2 {
+    right: 40.2vw;
+}
+
+.triangle {
+    position: absolute;
+    top: -12px;
+    left: 100px;
+}
+
+.option-box ul {
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+    margin: 20px;
+    list-style: none;
+    line-height: 35px;
+}
+
+.option-box ul li:hover {
+    color: #76b900;
+    cursor: pointer;
+}

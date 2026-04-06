@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background-color: black;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+
+.nav {
+    height: 45px;
+    background-color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    margin-left: 35vw;
+}
+
+.main-menu {
+    font-size: .9rem;
+    margin: 0 20px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.nav ul li {
+    font-size: .9rem;
+    color: rgba(0, 0, 0, 0.559);
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.search-button,
+#login {
+    background: transparent;
+    cursor: pointer;
+    border: 0;
+    opacity: 0.7;
+    margin: 0 7px;
+    margin-top: 7px;
+}
+
+.search-button {
+    margin-left: 20px;
+}
+
+.sub-nav {
+    color: rgba(255, 255, 255, 0.488);
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.arrow {
+    border: solid rgba(255, 255, 255, 0.488);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.sub-nav ul {
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.sub-nav ul .li-option {
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.sub-nav ul .non-option {
+    margin-left: 40px;
+}
+
+.font-big {
+    cursor: pointer;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.cl-white {
+    color: white;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 2.7rem;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    column-gap: 50px;
+    margin-top: 70px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-heading {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 30px 0;
+}
+
+.Lmore-btn {
+    font-size: 1rem;
+    font-weight: bold;
+    height: 45px;
+    width: 130px;
+    background: #76b900;
+    border: 0;
+    margin-top: 15px;
+    margin-bottom: 70px;
+    cursor: pointer;
+}
+
+
+
+#first-Line {
+    margin-top: 20px;
+    width: 210%;
+    opacity: .4;
+}
+
+
+footer .note {
+    margin: 50px 0;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.6rem;
+    text-align: center;
+    line-height: 15px;
+}
+
+
+.info-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info {
+    margin: 0 7vw;
+    flex-shrink: 0;
+}
+
+.info hr {
+    margin: 10px 0;
+    opacity: .3;
+}
+
+#info-hr1,
+#info-hr2,
+#info-hr3 {
+    width: 150%;
+}
+
+.info ul {
+    list-style: none;
+}
+
+.info ul li {
+    line-height: 35px;
+    color: #76b900;
+}
+
+#followText {
+    color: rgba(255, 255, 255, 0.403);
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.social-media-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-box {
+    height: 60px;
+    width: 60px;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.435);
+    opacity: .6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-box img {
+    opacity: .7;
+}
+
+.sub-footer {
+    height: 150px;
+    color: rgba(0, 0, 0, 0.6);
+    background: white;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+.sub-footer-option {
+    text-align: center;
+}
+
+.copyright {
+    font-size: .8rem;
+}

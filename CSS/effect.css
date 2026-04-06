@@ -1,0 +1,27 @@
+.sub-nav ul li:hover {
+    color: white;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.option-visibility1, .option-visibility2 {
+    display: none;
+}
+
+.Lmore-btn:hover {
+    background: #84d000;
+}
+
+.icon-box:hover, .icon-box img:hover {
+    opacity: 1;
+}
+
+.info-box .info ul li:hover {
+    cursor: pointer;
+}
+
+.menu-button, .sub-menu-button {
+    cursor: pointer;
+}
