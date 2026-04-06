@@ -124,6 +124,14 @@ body {
     flex-direction: column;
     align-items: center;
 }
+.box img {
+    transform: scale(1);
+     border: 2px solid rgba(255, 255, 255, 0.084);
+    transition: transform 0.3s ease;
+}
+.box img:hover {
+    transform: scale(1.05);
+}
 
 .card-heading {
     text-align: center;
